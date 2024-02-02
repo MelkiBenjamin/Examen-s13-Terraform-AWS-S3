@@ -51,12 +51,12 @@ resource "aws_s3_bucket_acl" "aclpermission" {
   acl    = "public-read"
 }
 
-//data "aws_route53_zone" "zone_dns" {
-//  name         = "devops.oclock.school."
-//}
+data "aws_route53_zone" "zone_dns" {
+  name         = "devops.oclock.school."
+}
 
 resource "aws_route53_record" "dns" {
-  zone_id = "Z0344813387X7MTU9QASM"
+  zone_id = data.aws_route53_zone.zone_dns.zone_id
   name    = "www.melkibenjamin-test"
   type    = "CNAME"
   ttl     = 300
