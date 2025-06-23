@@ -1,4 +1,4 @@
-# examen-s13-terraform
+# Examen s13 Terraform
 
 Voici les fichiers de mon Terraform pour le deploiement.
 
