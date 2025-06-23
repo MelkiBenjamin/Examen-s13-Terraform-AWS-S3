@@ -1,7 +1,7 @@
 # Examen s13 Terraform
 
-Voici les fichiers de mon Terraform pour le deploiement.
+Voici les fichiers de mon Terraform pour le déploiement.
 
-Je suis passer par le certificat wildcard déjà généré et ça marche.
+Je suis passé par le certificat wildcard déjà généré et ça marche.
 
-L'ensemble du déploiement marche et à était fait.
+L'ensemble du déploiement marche et a été fait.
